@@ -1,5 +1,6 @@
 import React from 'react'
 import logos from './asset/white-logo.png'
+import {Link} from 'react-router-dom'
 
 export default function SignIn(){
     return(
@@ -28,21 +29,13 @@ export default function SignIn(){
                                     <input type="password" class="form-control" placeholder="Enter Password"/>
                                 </div>
                                 <div class="form-group text-center">
-                                    <a href="#" class="btn link-btn forgot-link">Forgot Password?</a>
+                                    <Link to="Forgotten_Password" class="btn link-btn forgot-link">Forgot Password?</Link>
                                 </div>
                                 <div class="form-group">
-                                    <button class="btn btn-primary btn-full" style={{backgroundColor:"#bd0c3a"}}>Sign In</button>
-                                </div>
-                                <div class="or"><span>or</span></div>
-
-                                <div class="form-group">
-                                    <button class="btn btn-primary btn-full email-btn">Continue with Email</button>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-primary btn-full facebook-btn">Continue with Facebook</button>
+                                    <button class="btn btn-full" style={{backgroundColor:"#bd0c3a", color:"#ffffff"}}>Sign In</button>
                                 </div>
                                 <div class="form-group text-center">
-                                    <a href="#" class="btn link-btn signup-link">Not on DCode yet? Sign up</a>
+                                    <a href="#" class="btn link-btn signup-link">If you are a member sign in now</a>
                                 </div>
                             </form>
                         </div>
