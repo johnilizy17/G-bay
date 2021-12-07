@@ -5,13 +5,6 @@ import {Link} from 'react-router-dom'
 export default function SignIn(){
     return(
         <div class="box-wrapper">        
-            <div id="preloader">
-                <div id="status">
-                    <div class="d-loader">
-                        <img src={logos} alt=""/>
-                    </div>
-                </div>
-            </div>
            <div id="main-wrapper" class="page-wrapper">
                 <div class="dc-signin theme-one">
                     <div class="signin-wrapper">

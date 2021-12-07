@@ -829,7 +829,7 @@ textarea.form-control{
     transform: rotate(45deg);
 }
 #master-head.menu-fixed .navbar-toggle .burger-lines, #master-head.menu-fixed .navbar-toggle .burger-lines::after, #master-head.menu-fixed .navbar-toggle .burger-lines::before{
-	background-color: var(--heading-text-color);
+	/* background-color: var(--heading-text-color); */
 }
 #master-head.menu-fixed .active .navbar-toggle .burger-lines{
 	background-color: initial;
