@@ -5,6 +5,9 @@ import Home from './LandingPage/HomePage';
 import ForgottenPassword from './authentication/ForgottenPassword';
 import { Routes, Route} from "react-router-dom";
 import Blog from './Blog/Blog';
+import Notfound from './NotFound/NotFound';
+import AboutUs from './about/AboutUs';
+import FAQ from './FAQ/FAQ';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path="SignIn" element={<SignIn />} />
         <Route path="Forgotten_Password" element={<ForgottenPassword />} />
         <Route path="Blog" element={<Blog />} />
+        <Route path="Not_Found" element={<Notfound />} />
+        <Route path="About_us" element={<AboutUs />} />
+        <Route path="FQA" element={<FAQ />} />
       </Routes>
     </div>
   );

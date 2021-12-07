@@ -1,46 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Footer from '../Footer';
+import Header from '../Header';
 
 export default function Blog() {
     return (
         <div>
             <div class="box-wrapper">
-                <div id="master-head" class="navbar menu-absolute menu-center menu-light" style={{ backgroundColor: "linear-gradient(45deg, #f3678c 0%, #f03f6e 51%, #bd0c3a 100%)", color: "#ffffff" }}>
-                    <div class="container-fluid">
-                        <div id="main-logo" class="logo-container">
-                            <Link to="/" class="logo">
-                                <img src="images/d-code-logo-dark.svg" class="logo-dark" alt="DCode" />
-                                <img src="images/d-code-logo-light.svg" class="logo-light" alt="DCode" />
-                            </Link>
-                        </div>
-                        <div class="">
-                            <a class="navbar-toggle">
-                                <div class="burger-lines">
-                                </div>
-                            </a>
-                        </div>
-                        <div id="navigation" class="nav navbar-nav navbar-main">
-                            <ul id="main-menu" class="menu-primary">
-                                <li class="menu-item">    <Link to="/">Home</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/Blog">Blog</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/">FQA</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/">About Us</Link>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="navbar-right" style={{ backgroundColor: "#bd0c3a", color: "#ffffff" }}>
-                            <div class="menu-button">
-                                <Link to="SignIn">
-                                    <div class="btn btn-outline-primary btn-light">sign in</div>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Header/>
                 <div id="main-wrapper" class="page-wrapper">
                     <div class="inner-page-header section-padding style-dark">
                         <div class="container">
@@ -53,8 +20,8 @@ export default function Blog() {
                                 </div>
                                 <ul class="st-breadcrumb">
                                     <li><Link to="/">Home</Link></li>
-                                   <Link to="/Blog">Blog</Link>
-                                    
+                                    <Link to="/Blog">Blog</Link>
+
                                 </ul>
                             </div>
                         </div>
@@ -328,89 +295,8 @@ export default function Blog() {
                         </div>
                     </div>
                 </div>
+                <Footer />
 
-                <footer class="site-footer footer-theme-two">
-                    <div class="container">
-                        <div class="main-footer style-dark">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="widget">
-                                        <div class="text-widget">
-                                            <div class="about-info">
-                                                <div class="image-wrapper">
-                                                    <img src="images/d-code-logo-light.svg" alt="" />
-                                                </div>
-                                                <p>We impact lifes in different ways possible through our sounds and videos</p>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <div class="widget">
-                                        <div class="widget-title">
-                                            <h3 class="title">Useful Links</h3>
-                                        </div>
-                                        <div class="text-widget">
-                                            <div class="footer-nav">
-                                                <ul>
-                                                    <li><a href="#">Cookie Policy</a></li>
-                                                    <li><a href="#">Contact Us</a></li>
-                                                    <li><a href="#">Privacy Policy</a></li>
-                                                    <li><a href="#">Terms of Service</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <div class="widget">
-                                        <div class="widget-title">
-                                            <h3 class="title">Pages</h3>
-                                        </div>
-                                        <div class="text-widget">
-                                            <div class="footer-nav">
-                                                <ul>
-                                                    <li><a href="#">Home</a></li>
-                                                    <li><a href="#">About us</a></li>
-                                                    <li><a href="#">Blog</a></li>
-                                                    <li><a href="#">Community</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="widget">
-                                        <div class="widget-title">
-                                            <h3 class="title">Support</h3>
-                                        </div>
-                                        <div class="text-widget">
-                                            <div class="contact-info">
-                                                <ul>
-                                                    <li class="email-field">support@sacredthemes.net</li>
-                                                    <li class="phone-field">+2348142113675, +2349062359961</li>
-                                                    <li class="address-field">49 Uniqe Square D, New York, NY 10003, USA</li>
-                                                </ul>
-                                            </div>
-                                            <div class="social-media-links">
-                                                <ul>
-                                                    <li><a target="_blank" href="../../www.facebook.com/sacredthemes/index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a target="_blank" href="../../www.linkedin.com/company/sacredthemes/index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a target="_blank" href="../../twitter.com/SacredThemes"><i class="fab fa-twitter"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="copyright-bar style-dark">
-                            
-                        </div>
-                    </div>
-                </footer>
-                
             </div>
 
             <div class="overlay overlay-search">

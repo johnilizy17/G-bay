@@ -1,46 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Footer from '../Footer';
+import Header from '../Header';
 
 export default function Homepage() {
     return (
         <div>
             <div class="box-wrapper">
-                <div id="master-head" class="navbar menu-absolute menu-center menu-light" style={{ backgroundColor: "linear-gradient(45deg, #f3678c 0%, #f03f6e 51%, #bd0c3a 100%)", color: "#ffffff" }}>
-                    <div class="container-fluid">
-                        <div id="main-logo" class="logo-container">
-                            <Link to="/" class="logo">
-                                <img src="images/d-code-logo-dark.svg" class="logo-dark" alt="DCode" />
-                                <img src="images/d-code-logo-light.svg" class="logo-light" alt="DCode" />
-                            </Link>
-                        </div>
-                        <div class="menu-toggle-btn">
-                            <a class="navbar-toggle">
-                                <div class="burger-lines">
-                                </div>
-                            </a>
-                        </div>
-                        <div id="navigation" class="nav navbar-nav navbar-main">
-                            <ul id="main-menu" class="menu-primary">
-                                <li class="menu-item">    <Link to="/">Home</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/Blog">Blog</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/">FQA</Link>
-                                </li>
-                                <li class="menu-item">    <Link to="/">About Us</Link>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="navbar-right" style={{ backgroundColor: "#bd0c3a", color: "#ffffff" }}>
-                            <div class="menu-button">
-                                <Link to="SignIn">
-                                    <div class="btn btn-outline-primary btn-light">sign in</div>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Header/>
                 <div id="main-wrapper" class="page-wrapper" >
                     <div class="page-header section-padding style-dark full-height dc-three left-col-full">
                         <div class="container">
@@ -56,7 +23,7 @@ export default function Homepage() {
                                     </div>
                                     <div class="text-wrapper wow fadeInRight" data-wow-delay="0.4s">
                                         <p class="lead-text">Moto.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales dictum viverra. Nam gravida dignissim eros. Vivamus congue erat ante, volutpat dictum neque dignissim eget.</p>
+                                        <p>Script tells our stories to the world.</p>
                                     </div>
                                     <div class="btn-wrapper wow fadeInUp" data-wow-delay="0.4s">
                                         <Link to="/SignIn" class="btn btn-primary" >Sign In</Link>
@@ -239,58 +206,7 @@ export default function Homepage() {
                         </div>
                     </div>
                 </div>
-                <footer class="site-footer footer-theme-three">
-                    <div class="container">
-                        <div class="main-footer style-dark">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="widget">
-                                        <div class="text-widget">
-                                            <div class="footer-nav horizontal-menu">
-                                                <ul>
-                                                    <li><a href="#">Home</a></li>
-                                                    <li><a href="#">Company</a></li>
-                                                    <li><a href="#">Services</a></li>
-                                                    <li><a href="#">career</a></li>
-                                                    <li><a href="#">Insight</a></li>
-                                                    <li><a href="#">Contact Us</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="about-info">
-                                                <div class="image-wrapper">
-                                                    <img src="images/d-code-logo-light.svg" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="newsletter-form style-two">
-                                                <h3>Subscribe to our newsletter</h3>
-                                                <form method="post">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" id="EmailInput" placeholder="Enter email address" required="" />
-                                                    </div>
-                                                    <button type="submit">Subscribe Now!</button>
-                                                </form>
-                                            </div>
-                                            <div class="social-media-links">
-                                                <ul>
-                                                    <li><a target="_blank" href="../../www.facebook.com/sacredthemes/index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a target="_blank" href="../../www.linkedin.com/company/sacredthemes/index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a target="_blank" href="../../twitter.com/SacredThemes"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a target="_blank" href="https://www.instagram.com/sacred_themes/"><i class="fab fa-instagram"></i></a></li>
-                                                    <li><a target="_blank" href="https://www.youtube.com/channel/UCk7Jjmrlry0DiyiXoENs_TA"><i class="fab fa-youtube"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="copyright-bar style-dark">
-                            <div class="copyright-text text-center">
-                                © Copyright DCode 2021. Made with <i class="fas fa-heart"></i> by <a href="../../sacredthemes.net/index.html" target="_blank"><strong>SacredThemes</strong></a>.
-                        </div>
-                        </div>
-                    </div>
-                </footer>
+                <Footer/>
             </div>
             <div class="overlay overlay-search">
                 <div class="close-search">
