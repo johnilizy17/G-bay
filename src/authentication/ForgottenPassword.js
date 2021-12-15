@@ -1,7 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
+
+
 export default function ForgottenPassword(){
+
+    const home = {
+        pathname: "/",
+        key: 1, 
+        state: {
+          applied: true
+        }
+    }
     return(
         <div class="box-wrapper">        
             <div id="main-wrapper" class="page-wrapper">
@@ -18,7 +28,7 @@ export default function ForgottenPassword(){
                                     <input type="text" class="form-control" placeholder="Enter your Email"/>
                                 </div>
                                 <div class="form-group text-center">
-                                    <Link to="/" class="btn link-btn forgot-link" style={{color:"blue"}}>Return to login page</Link>
+                                    <Link to={home} class="btn link-btn forgot-link" style={{color:"blue"}}>Return to login page</Link>
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-full" style={{backgroundColor:"#bd0c3a", color:"#ffffff"}}>Submit</button>

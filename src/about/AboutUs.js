@@ -19,7 +19,7 @@ export default function () {
                                     </div>
                                 </div>
                                 <ul class="st-breadcrumb">
-                                    <li><a href="index-standard.html">Home</a></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li class="active"><span>About Us</span></li>
                                 </ul>
                             </div>
@@ -30,22 +30,18 @@ export default function () {
                             <div class="row justify-content-between">
                                 <div class="col-lg-5 wow fadeInLeft">
                                     <div class="heading-wrapper with-separator">
-                                        <span class="sub-title">About Dcode</span>
+                                        <span class="sub-title">About GBAY</span>
                                         <h2 class="h1">We are providing the <span>modern solutions</span></h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="text-wrapper">
-                                        <p class="lead-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales dictum viverra. Nam gravida dignissim eros. Vivamus congue erat ante, volutpat dictum neque dignissim eget.</p>
-                                        <ul class="list-style-one">
-                                            <li>Nullam placerat nunc id ornare convallis.</li>
-                                            <li>Mauris id dui aliquam, dapibus felis vel, iaculis risus.</li>
-                                            <li>Integer dapibus lorem in nisl hendrerit dictum.</li>
-                                        </ul>
+                                        <p class="lead-text">Founded in 2013, GBAY ministry is used by nearly 50 people, have release over 10 movies on youtube with member of over 20 members in numbers and. it is a place everyone who act to learn, share their knowledge, collaborate, and build their careers. 
+                                        
+                                        .</p>
+                                        <p class="lead-text">Our products and tools help actors and musicians in life and at work. These products include GBAY flim Products for Teams, GBAY Advertising, and GBAY for Talent and Jobs.</p>
                                     </div>
-                                    <div class="btn-wrapper">
-                                        <a class="btn btn-primary" href="#">Purchase Now</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -55,9 +51,9 @@ export default function () {
                             <div class="row clearfix justify-content-center">
                                 <div class="col-lg-10">
                                     <div class="heading-wrapper text-center with-separator">
-                                        <h2 class="h1">Why <span>Choose </span>the DCode</h2>
+                                        <h2 class="h1">Why <span>Choose </span> GBAY</h2>
                                         <div class="lead-text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit gravida, quis tincidunt purus fringilla. Aenean convallis a neque non pellentesque.</p>
+                                            <p>We provide young actor and actoress the space to extend there exprience and start build real life acting skills early in life.</p>
                                         </div>
                                     </div>
 
@@ -71,7 +67,7 @@ export default function () {
                                         </div>
                                         <div class="text">
                                             <h4>Innovative</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
+                                            <p>We have innovative writers who create a story base on real life situation around the world</p>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +78,7 @@ export default function () {
                                         </div>
                                         <div class="text">
                                             <h4>Reasonable</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
+                                            <p>Our movies and song are well rated and review many times before published</p>
                                         </div>
                                     </div>
                                 </div>
@@ -93,73 +89,7 @@ export default function () {
                                         </div>
                                         <div class="text">
                                             <h4>Support</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fact-section style-dark dark-bg">
-                        <div class="container">
-                            <div class="row clearfix">
-                                <div class="col-md-5">
-                                    <div class="heading-wrapper pt-100 pb-30">
-                                        <h2 class="h1">Our <span>Innovative platform</span> that convert visitors into customars.</h2>
-                                        <div class="lead-text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit gravida.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="counter-wrapper with-separator two-col-stack">
-                                        <div class="counter-block with-icon wow fadeIn">
-                                            <div class="counter-icon">
-                                                <img src="images/default-color/icon-14-light.svg" alt="Total Downloads" />
-                                            </div>
-                                            <div class="counter">
-                                                <span class="counter-number-prefix"></span>
-                                                <span class="counter-number" data-speed="3500" data-stop="2020">0</span>
-                                                <span class="counter-number-after"></span>
-                                                <span class="counter-number-suffix"></span>
-                                            </div>
-                                            <div class="counter-title">Year We were Established</div>
-                                        </div>
-                                        <div class="counter-block with-icon wow fadeIn" data-wow-delay="0.3s">
-                                            <div class="counter-icon">
-                                                <img src="images/default-color/icon-12-light.svg" alt="Positive Reviews" />
-                                            </div>
-                                            <div class="counter">
-                                                <span class="counter-number-prefix"></span>
-                                                <span class="counter-number" data-speed="1000" data-stop="3">0</span>
-                                                <span class="counter-number-after">m</span>
-                                                <span class="counter-number-suffix"></span>
-                                            </div>
-                                            <div class="counter-title">Monthly Active Users</div>
-                                        </div>
-                                        <div class="counter-block with-icon wow fadeIn" data-wow-delay="0.6s">
-                                            <div class="counter-icon">
-                                                <img src="images/default-color/icon-13-light.svg" alt="Happy Users" />
-                                            </div>
-                                            <div class="counter">
-                                                <span class="counter-number-prefix"></span>
-                                                <span class="counter-number" data-speed="3500" data-stop="80">0</span>
-                                                <span class="counter-number-after"></span>
-                                                <span class="counter-number-suffix">+</span>
-                                            </div>
-                                            <div class="counter-title">Members in Our Exclusive Team</div>
-                                        </div>
-                                        <div class="counter-block with-icon wow fadeIn" data-wow-delay="0.9s">
-                                            <div class="counter-icon">
-                                                <img src="images/default-color/icon-11-light.svg" alt="Years of Operation" />
-                                            </div>
-                                            <div class="counter">
-                                                <span class="counter-number-prefix"></span>
-                                                <span class="counter-number" data-speed="3500" data-stop="10">0</span>
-                                                <span class="counter-number-after"></span>
-                                                <span class="counter-number-suffix">+</span>
-                                            </div>
-                                            <div class="counter-title">Countries using Our Products</div>
+                                            <p>We have the fastest support team in helping new actor, actoress and musicians to grow and learn from the expreince of existing or well expreinced actor or musicians</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,17 +109,17 @@ export default function () {
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="heading0">
                                                 <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">How can I install/upgrade Dummy Content?</a>
+                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">Getting started with GBAY?</a>
                                                 </h3>
                                             </div>
                                             <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
                                                 <div class="panel-body">
-                                                    <p>Nunc scelerisque bibendum felis eu aliquet. Quisque et neque in diam feugiat dapibus laoreet vitae risus. Aliquam in mauris ante. Nullam porta, metus at dictum consectetur, mi risus auctor eros, id interdum nisl velit et ante.</p>
+                                                    <p>Contact us through the following support team to add and welcome new members with open hands.</p>
                                                     <ul class="list-style-one">
-                                                        <li>pellentesque, ex fringilla consectetur iaculis, turpis odio sollicitudin nibh</li>
-                                                        <li>lorem ex ultricies mi, nec pellentesque est erat quis diam</li>
-                                                        <li>Donec a felis et orci facilisis eleifend eu vitae orci.</li>
-                                                        <li>Pellentesque ut pretium augue. Vivamus vel lorem justo. Vivamus sit amet porttitor mauris.</li>
+                                                        <li>08142113678</li>
+                                                        <li>09062359961</li>
+                                                        <li>Facebook</li>
+                                                        <li>Youtube</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -197,12 +127,12 @@ export default function () {
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="heading1">
                                                 <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">How can I uninstall Dummy Content?</a>
+                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">How can i start has a newbee?</a>
                                                 </h3>
                                             </div>
                                             <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
                                                 <div class="panel-body">
-                                                    <p>Nullam a nisl vitae sapien aliquet pellentesque. Mauris dui felis, sagittis non turpis quis, molestie facilisis quam. Ut ut augue tempor, tristique odio vitae, auctor erat. Sed finibus, magna a condimentum ultricies, lectus nisl euismod lectus, id aliquet mi velit in metus.</p>
+                                                    <p>When you join GBAY we offer courses and programs that help new actor to develop and reach higher hight.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -214,20 +144,20 @@ export default function () {
                                             </div>
                                             <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                                                 <div class="panel-body">
-                                                    <p>Suspendisse condimentum efficitur leo, vitae porttitor risus ornare nec. Maecenas eget lorem vestibulum, vestibulum nulla et, posuere nibh.</p>
+                                                    <p>Person of any age can join GBAY because we believe that talent is not by age.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="heading3">
                                                 <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">Where can I download earlier versions?</a>
+                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">How many time do you meet in a month?</a>
                                                 </h3>
                                             </div>
                                             <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                                 <div class="panel-body">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus mauris, ullamcorper quis fringilla pretium, faucibus quis enim. Proin at lorem nunc. Curabitur at scelerisque felis.</p>
-                                                    <p>Cras ornare libero sem, et efficitur elit hendrerit id. Nam molestie felis ipsum, non ullamcorper nunc viverra sit amet.</p>
+                                                    <p>We meet has many time in a month to shot movies and also to teach now actor on how to act .</p>
+                                                    <p>We also meet once in a year by december 10 for camp to come and learn forward on how to do things.</p>
                                                 </div>
                                             </div>
                                         </div>

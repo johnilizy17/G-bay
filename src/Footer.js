@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Gbay from './gbay.jpg'
 
 export default function Footer(){
     return(
@@ -12,7 +13,7 @@ export default function Footer(){
                                         <div class="text-widget">
                                             <div class="about-info">
                                                 <div class="image-wrapper">
-                                                    <img src="images/d-code-logo-light.svg" alt="" />
+                                                <img src={Gbay}  alt="GBAY" />
                                                 </div>
                                                 <p>We impact lifes in different ways possible through our sounds and videos</p>
                                             </div>

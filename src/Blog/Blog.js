@@ -34,9 +34,9 @@ export default function Blog() {
                                     <div class="article-block">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-3.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -58,9 +58,9 @@ export default function Blog() {
                                     <div class="article-block">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-2.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -82,9 +82,9 @@ export default function Blog() {
                                     <div class="article-block category-marketing">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-5.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -106,9 +106,9 @@ export default function Blog() {
                                     <div class="article-block category-event">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-1.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -130,9 +130,9 @@ export default function Blog() {
                                     <div class="article-block category-technology">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-6.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -154,9 +154,9 @@ export default function Blog() {
                                     <div class="article-block category-software">
                                         <div class="inner-box">
                                             <div class="article-img">
-                                                <a href="#">
+                                                <Link to="/view">
                                                     <img src="images/large-thumb-4.jpg" alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div class="article-details">
                                                 <div class="post-meta">
@@ -281,10 +281,10 @@ export default function Blog() {
                                             </div>
                                             <div class="social-media-links">
                                                 <ul>
-                                                    <li><a target="_blank" href="../../www.facebook.com/sacredthemes/index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a target="_blank" href="https://www.instagram.com/sacred_themes/"><i class="fab fa-instagram"></i></a></li>
-                                                    <li><a target="_blank" href="../../www.linkedin.com/company/sacredthemes/index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a target="_blank" href="../../twitter.com/SacredThemes"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li><a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                    <li><a target="_blank" href=""><i class="fab fa-twitter"></i></a></li>
                                                     <li><a target="_blank" href="https://www.behance.net/sacredthemes"><i class="fab fa-behance"></i></a></li>
                                                 </ul>
                                             </div>

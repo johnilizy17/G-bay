@@ -7,7 +7,7 @@ export default function Homepage() {
     return (
         <div>
             <div class="box-wrapper">
-                <Header/>
+                <Header />
                 <div id="main-wrapper" class="page-wrapper" >
                     <div class="page-header section-padding style-dark full-height dc-three left-col-full">
                         <div class="container">
@@ -19,7 +19,7 @@ export default function Homepage() {
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="heading-wrapper wow fadeInRight" data-wow-delay="0.2s">
-                                        <h1>G-bay is <span>best flim production, music training and stage ministration </span></h1>
+                                        <h1>G-bay is the <span>best in film production, music training ministry </span></h1>
                                     </div>
                                     <div class="text-wrapper wow fadeInRight" data-wow-delay="0.4s">
                                         <p class="lead-text">Moto.</p>
@@ -27,7 +27,7 @@ export default function Homepage() {
                                     </div>
                                     <div class="btn-wrapper wow fadeInUp" data-wow-delay="0.4s">
                                         <Link to="/SignIn" class="btn btn-primary" >Sign In</Link>
-                                        <a class="btn btn-outline-primary" href="https://youtube.com/channel/UCAxY3LVH-SpPEf1uC-tYfYw"><i class="fas fa-play-circle"></i>Watch Video</a>
+                                        <a class="btn btn-outline-primary" href="https://youtube.com/channel/UCAxY3LVH-SpPEf1uC-TyfYw"><i class="fas fa-play-circle"></i>Watch Video</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,14 +43,14 @@ export default function Homepage() {
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="heading-wrapper with-separator">
-                                        <h2 class="h1">Complete Online Security with <span>Premium support</span></h2>
+                                        <h2 class="h1">Creating movie and music that transform <span>lifes</span></h2>
                                     </div>
                                     <div class="text-wrapper">
-                                        <p class="lead-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales dictum viverra.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales dictum viverra. Nam gravida dignissim eros. Vivamus congue erat ante, volutpat dictum neque dignissim eget. </p>
+                                        <p class="lead-text">Acting is not just a presenting information but constructing a storyline that touchs the heart</p>
+                                        <p>When inspiration does not come, I go for a walk, go to the movies, talk to a friend, let go… The muse is bound to return again, especially if I turn my back! </p>
                                     </div>
                                     <div class="btn-wrapper">
-                                        <a class="btn btn-primary" href="#">Discover More</a>
+                                        <Link class="btn btn-primary" to="/About_Us">Discover More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ export default function Homepage() {
                                     <div class="heading-wrapper text-center with-separator">
                                         <h2 class="h1">How does it <span>works</span></h2>
                                         <div class="lead-text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit gravida, quis tincidunt purus fringilla. Aenean convallis a neque non pellentesque.</p>
+                                            <p>this will help us instantly share photos, post news stories, and just chat with friends, family, and colleagues from anywhere in the world with an internet connection with instant information through our blog..</p>
                                         </div>
                                     </div>
                                 </div>
@@ -75,8 +75,8 @@ export default function Homepage() {
                                             <img src="images/default-color/icon-8.svg" alt="" />
                                         </div>
                                         <div class="text">
-                                            <h4>Real-Time Protection</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
+                                            <h4>Real-Time Access</h4>
+                                            <p>Latest news about G-bay and current activity will be found here </p>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ export default function Homepage() {
                                         </div>
                                         <div class="text">
                                             <h4>Internet & Networks</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
+                                            <p>Access our information from any where in the world</p>
                                         </div>
                                     </div>
                                 </div>
@@ -97,36 +97,8 @@ export default function Homepage() {
                                             <img src="images/default-color/icon-10.svg" alt="" />
                                         </div>
                                         <div class="text">
-                                            <h4>Mail Protection</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-interface-section section-padding pt-0">
-                        <div class="container">
-                            <div class="row align-items-center clearfix">
-                                <div class="col-lg-6">
-                                    <div class="image-wrapper">
-                                        <img src="images/default-color/user-interface-img.png" alt="" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="heading-wrapper with-separator">
-                                        <h2 class="h1">Really <span>awesome UI/UX</span> easier to use for users</h2>
-
-                                        <div class="text-wrapper">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales dictum viverra. Nam gravida dignissim eros. Vivamus congue erat ante, volutpat dictum neque dignissim eget.</p>
-                                            <ul class="list-style-one">
-                                                <li>Nullam placerat nunc id ornare convallis.</li>
-                                                <li>Mauris id dui aliquam, dapibus felis vel, iaculis risus.</li>
-                                                <li>Integer dapibus lorem in nisl hendrerit dictum.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-wrapper">
-                                            <a href="#" class="btn btn-primary">Start Free trial Now</a>
+                                            <h4>Customer care</h4>
+                                            <p>Instant access to Customer care of GBAY all round the world</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +119,7 @@ export default function Homepage() {
                                             <div class="item">
                                                 <div class="testimonial-text">
                                                     <blockquote>
-                                                        Cum et essent similique. Inani propriae menandri sed in. Pericula expetendis has no, quo populo forensibus contentiones et, nibh error in per.
+                                                    Acting is behaving truthfully under imaginary circumstances.
                                                             </blockquote>
                                                     <div class="client-info">
                                                         <h5>Andy Sant</h5>
@@ -158,7 +130,7 @@ export default function Homepage() {
                                             <div class="item">
                                                 <div class="testimonial-text">
                                                     <blockquote>
-                                                        It's all good. I am really satisfied with software. Pericula expetendis has no, quo populo forensibus contentiones et, nibh error in per.
+                                                    If you get a chance to act in a room that somebody else has paid rent for, then you’re given a free chance to practice your craft.
                                             </blockquote>
                                                     <div class="client-info">
                                                         <h5>Dan Kaul</h5>
@@ -169,7 +141,7 @@ export default function Homepage() {
                                             <div class="item">
                                                 <div class="testimonial-text">
                                                     <blockquote>
-                                                        Pericula expetendis has no, quo populo forensibus contentiones et, nibh error in per. Vis in tritani debitis delicatissimi, error omnesque invenire usu ex.
+                                                    Acting is not about being someone different. It's finding the similarity in what is apparently different, then finding myself in there.
                                             </blockquote>
                                                     <div class="client-info">
                                                         <h5>Saru Matt</h5>
@@ -180,7 +152,7 @@ export default function Homepage() {
                                             <div class="item">
                                                 <div class="testimonial-text">
                                                     <blockquote>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in lacus consectetur, fermentum nisi vel, aliquet erat.
+                                                    For me, our job as artists is to serve the story, serve the director, and serve the fellow actors. And if you do that, by osmosis you’re serving yourself because you’ll get the best out of yourself.
                                             </blockquote>
                                                     <div class="client-info">
                                                         <h5>Yommi Pat</h5>
@@ -191,7 +163,7 @@ export default function Homepage() {
                                             <div class="item">
                                                 <div class="testimonial-text">
                                                     <blockquote>
-                                                        Nam rutrum, eros nec consequat eleifend, quam est sodales mauris, eget dignissim lacus sem at erat. Vivamus eget semper nibh.
+                                                    Remember: there are no small parts, only small actors.
                                             </blockquote>
                                                     <div class="client-info">
                                                         <h5>Shreyn S</h5>
@@ -206,7 +178,7 @@ export default function Homepage() {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
             <div class="overlay overlay-search">
                 <div class="close-search">
